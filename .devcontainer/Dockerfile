@@ -1,1 +1,1 @@
-FROM ubuntu:jammy
+FROM mcr.microsoft.com/devcontainers/base:ubuntu

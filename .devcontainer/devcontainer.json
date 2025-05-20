@@ -3,7 +3,10 @@
 	"build": {
 		"context": "..",
 		"dockerfile": "Dockerfile"
-	}
+	},
+	"runArgs": [
+    	"--platform=x86-64"
+  	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
